@@ -1,0 +1,5 @@
+这个类很好用
+
+1 拉入文件会报错,因为没有包含头文件,需要导入
+   1 #import <UIImageView+WebCache.h>
+   2 pod "SDWebImage"

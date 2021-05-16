@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA5A2F61B4BCD9E00A65863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A2F51B4BCD9E00A65863 /* main.m */; };
+		FDA5A2F91B4BCD9E00A65863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A2F81B4BCD9E00A65863 /* AppDelegate.m */; };
+		FDA5A2FF1B4BCD9E00A65863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A2FD1B4BCD9E00A65863 /* Main.storyboard */; };
+		FDA5A3011B4BCD9E00A65863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A3001B4BCD9E00A65863 /* Images.xcassets */; };
+		FDA5A3041B4BCD9E00A65863 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A3021B4BCD9E00A65863 /* LaunchScreen.xib */; };
+		FDA5A3101B4BCD9E00A65863 /* J_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A30F1B4BCD9E00A65863 /* J_____Tests.m */; };
+		FDA5A3221B4BCDAE00A65863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3211B4BCDAE00A65863 /* main.m */; };
+		FDA5A3251B4BCDAE00A65863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3241B4BCDAE00A65863 /* AppDelegate.m */; };
+		FDA5A32B1B4BCDAE00A65863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A3291B4BCDAE00A65863 /* Main.storyboard */; };
+		FDA5A32D1B4BCDAE00A65863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A32C1B4BCDAE00A65863 /* Images.xcassets */; };
+		FDA5A3301B4BCDAE00A65863 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A32E1B4BCDAE00A65863 /* LaunchScreen.xib */; };
+		FDA5A33C1B4BCDAE00A65863 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A33B1B4BCDAE00A65863 /* _________Tests.m */; };
+		FDA5A3441B4BCDDB00A65863 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A3431B4BCDDB00A65863 /* categories.plist */; };
+		FDA5A3461B4BCDE100A65863 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDA5A3451B4BCDE100A65863 /* categories.plist */; };
+		FDA5A3491B4BCE1B00A65863 /* SL1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3481B4BCE1B00A65863 /* SL1ViewController.m */; };
+		FDA5A34C1B4BCE2600A65863 /* SL2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A34B1B4BCE2600A65863 /* SL2ViewController.m */; };
+		FDA5A3551B4BCEB400A65863 /* SLCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3521B4BCEB400A65863 /* SLCategoryViewController.m */; };
+		FDA5A3561B4BCEB400A65863 /* SLSubcategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3541B4BCEB400A65863 /* SLSubcategoryViewController.m */; };
+		FDA5A3591B4BCEBA00A65863 /* SLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A3581B4BCEBA00A65863 /* SLCategory.m */; };
+		FDA5A35C1B4BCEBE00A65863 /* SLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA5A35B1B4BCEBE00A65863 /* SLCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA5A30A1B4BCD9E00A65863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA5A2E81B4BCD9E00A65863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA5A2EF1B4BCD9E00A65863;
+			remoteInfo = "J-级联菜单";
+		};
+		FDA5A3361B4BCDAE00A65863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA5A2E81B4BCD9E00A65863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA5A31C1B4BCDAE00A65863;
+			remoteInfo = "2-双控制级联菜单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA5A2F01B4BCD9E00A65863 /* J-级联菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J-级联菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA5A2F41B4BCD9E00A65863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA5A2F51B4BCD9E00A65863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA5A2F71B4BCD9E00A65863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA5A2F81B4BCD9E00A65863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA5A2FE1B4BCD9E00A65863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA5A3001B4BCD9E00A65863 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDA5A3031B4BCD9E00A65863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDA5A3091B4BCD9E00A65863 /* J-级联菜单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "J-级联菜单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA5A30E1B4BCD9E00A65863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA5A30F1B4BCD9E00A65863 /* J_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "J_____Tests.m"; sourceTree = "<group>"; };
+		FDA5A31D1B4BCDAE00A65863 /* 2-双控制级联菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2-双控制级联菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA5A3201B4BCDAE00A65863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA5A3211B4BCDAE00A65863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA5A3231B4BCDAE00A65863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA5A3241B4BCDAE00A65863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA5A32A1B4BCDAE00A65863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA5A32C1B4BCDAE00A65863 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDA5A32F1B4BCDAE00A65863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDA5A3351B4BCDAE00A65863 /* 2-双控制级联菜单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2-双控制级联菜单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA5A33A1B4BCDAE00A65863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA5A33B1B4BCDAE00A65863 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		FDA5A3431B4BCDDB00A65863 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		FDA5A3451B4BCDE100A65863 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		FDA5A3471B4BCE1B00A65863 /* SL1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL1ViewController.h; sourceTree = "<group>"; };
+		FDA5A3481B4BCE1B00A65863 /* SL1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL1ViewController.m; sourceTree = "<group>"; };
+		FDA5A34A1B4BCE2600A65863 /* SL2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SL2ViewController.h; sourceTree = "<group>"; };
+		FDA5A34B1B4BCE2600A65863 /* SL2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SL2ViewController.m; sourceTree = "<group>"; };
+		FDA5A3511B4BCEB400A65863 /* SLCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCategoryViewController.h; sourceTree = "<group>"; };
+		FDA5A3521B4BCEB400A65863 /* SLCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCategoryViewController.m; sourceTree = "<group>"; };
+		FDA5A3531B4BCEB400A65863 /* SLSubcategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSubcategoryViewController.h; sourceTree = "<group>"; };
+		FDA5A3541B4BCEB400A65863 /* SLSubcategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSubcategoryViewController.m; sourceTree = "<group>"; };
+		FDA5A3571B4BCEBA00A65863 /* SLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCategory.h; sourceTree = "<group>"; };
+		FDA5A3581B4BCEBA00A65863 /* SLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCategory.m; sourceTree = "<group>"; };
+		FDA5A35A1B4BCEBE00A65863 /* SLCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCategory.h; sourceTree = "<group>"; };
+		FDA5A35B1B4BCEBE00A65863 /* SLCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCategory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA5A2ED1B4BCD9E00A65863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3061B4BCD9E00A65863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A31A1B4BCDAE00A65863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3321B4BCDAE00A65863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA5A2E71B4BCD9E00A65863 = {
+			isa = PBXGroup;
+			children = (
+				FDA5A2F21B4BCD9E00A65863 /* J-级联菜单 */,
+				FDA5A30C1B4BCD9E00A65863 /* J-级联菜单Tests */,
+				FDA5A31E1B4BCDAE00A65863 /* 2-双控制级联菜单 */,
+				FDA5A3381B4BCDAE00A65863 /* 2-双控制级联菜单Tests */,
+				FDA5A2F11B4BCD9E00A65863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA5A2F11B4BCD9E00A65863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A2F01B4BCD9E00A65863 /* J-级联菜单.app */,
+				FDA5A3091B4BCD9E00A65863 /* J-级联菜单Tests.xctest */,
+				FDA5A31D1B4BCDAE00A65863 /* 2-双控制级联菜单.app */,
+				FDA5A3351B4BCDAE00A65863 /* 2-双控制级联菜单Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA5A2F21B4BCD9E00A65863 /* J-级联菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A2F71B4BCD9E00A65863 /* AppDelegate.h */,
+				FDA5A2F81B4BCD9E00A65863 /* AppDelegate.m */,
+				FDA5A3501B4BCE8900A65863 /* Controller */,
+				FDA5A34F1B4BCE8300A65863 /* Model */,
+				FDA5A2F31B4BCD9E00A65863 /* Supporting Files */,
+			);
+			path = "J-级联菜单";
+			sourceTree = "<group>";
+		};
+		FDA5A2F31B4BCD9E00A65863 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A2FD1B4BCD9E00A65863 /* Main.storyboard */,
+				FDA5A3001B4BCD9E00A65863 /* Images.xcassets */,
+				FDA5A3021B4BCD9E00A65863 /* LaunchScreen.xib */,
+				FDA5A3451B4BCDE100A65863 /* categories.plist */,
+				FDA5A2F41B4BCD9E00A65863 /* Info.plist */,
+				FDA5A2F51B4BCD9E00A65863 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA5A30C1B4BCD9E00A65863 /* J-级联菜单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A30F1B4BCD9E00A65863 /* J_____Tests.m */,
+				FDA5A30D1B4BCD9E00A65863 /* Supporting Files */,
+			);
+			path = "J-级联菜单Tests";
+			sourceTree = "<group>";
+		};
+		FDA5A30D1B4BCD9E00A65863 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A30E1B4BCD9E00A65863 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA5A31E1B4BCDAE00A65863 /* 2-双控制级联菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A3231B4BCDAE00A65863 /* AppDelegate.h */,
+				FDA5A3241B4BCDAE00A65863 /* AppDelegate.m */,
+				FDA5A34E1B4BCE7B00A65863 /* Controller */,
+				FDA5A34D1B4BCE7300A65863 /* Model */,
+				FDA5A31F1B4BCDAE00A65863 /* Supporting Files */,
+			);
+			path = "2-双控制级联菜单";
+			sourceTree = "<group>";
+		};
+		FDA5A31F1B4BCDAE00A65863 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A3291B4BCDAE00A65863 /* Main.storyboard */,
+				FDA5A32C1B4BCDAE00A65863 /* Images.xcassets */,
+				FDA5A32E1B4BCDAE00A65863 /* LaunchScreen.xib */,
+				FDA5A3431B4BCDDB00A65863 /* categories.plist */,
+				FDA5A3201B4BCDAE00A65863 /* Info.plist */,
+				FDA5A3211B4BCDAE00A65863 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA5A3381B4BCDAE00A65863 /* 2-双控制级联菜单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A33B1B4BCDAE00A65863 /* _________Tests.m */,
+				FDA5A3391B4BCDAE00A65863 /* Supporting Files */,
+			);
+			path = "2-双控制级联菜单Tests";
+			sourceTree = "<group>";
+		};
+		FDA5A3391B4BCDAE00A65863 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A33A1B4BCDAE00A65863 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA5A34D1B4BCE7300A65863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A3571B4BCEBA00A65863 /* SLCategory.h */,
+				FDA5A3581B4BCEBA00A65863 /* SLCategory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FDA5A34E1B4BCE7B00A65863 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A3511B4BCEB400A65863 /* SLCategoryViewController.h */,
+				FDA5A3521B4BCEB400A65863 /* SLCategoryViewController.m */,
+				FDA5A3531B4BCEB400A65863 /* SLSubcategoryViewController.h */,
+				FDA5A3541B4BCEB400A65863 /* SLSubcategoryViewController.m */,
+				FDA5A34A1B4BCE2600A65863 /* SL2ViewController.h */,
+				FDA5A34B1B4BCE2600A65863 /* SL2ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FDA5A34F1B4BCE8300A65863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A35A1B4BCEBE00A65863 /* SLCategory.h */,
+				FDA5A35B1B4BCEBE00A65863 /* SLCategory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FDA5A3501B4BCE8900A65863 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5A3471B4BCE1B00A65863 /* SL1ViewController.h */,
+				FDA5A3481B4BCE1B00A65863 /* SL1ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA5A2EF1B4BCD9E00A65863 /* J-级联菜单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA5A3131B4BCD9E00A65863 /* Build configuration list for PBXNativeTarget "J-级联菜单" */;
+			buildPhases = (
+				FDA5A2EC1B4BCD9E00A65863 /* Sources */,
+				FDA5A2ED1B4BCD9E00A65863 /* Frameworks */,
+				FDA5A2EE1B4BCD9E00A65863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "J-级联菜单";
+			productName = "J-级联菜单";
+			productReference = FDA5A2F01B4BCD9E00A65863 /* J-级联菜单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA5A3081B4BCD9E00A65863 /* J-级联菜单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA5A3161B4BCD9E00A65863 /* Build configuration list for PBXNativeTarget "J-级联菜单Tests" */;
+			buildPhases = (
+				FDA5A3051B4BCD9E00A65863 /* Sources */,
+				FDA5A3061B4BCD9E00A65863 /* Frameworks */,
+				FDA5A3071B4BCD9E00A65863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA5A30B1B4BCD9E00A65863 /* PBXTargetDependency */,
+			);
+			name = "J-级联菜单Tests";
+			productName = "J-级联菜单Tests";
+			productReference = FDA5A3091B4BCD9E00A65863 /* J-级联菜单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA5A31C1B4BCDAE00A65863 /* 2-双控制级联菜单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA5A33D1B4BCDAE00A65863 /* Build configuration list for PBXNativeTarget "2-双控制级联菜单" */;
+			buildPhases = (
+				FDA5A3191B4BCDAE00A65863 /* Sources */,
+				FDA5A31A1B4BCDAE00A65863 /* Frameworks */,
+				FDA5A31B1B4BCDAE00A65863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2-双控制级联菜单";
+			productName = "2-双控制级联菜单";
+			productReference = FDA5A31D1B4BCDAE00A65863 /* 2-双控制级联菜单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA5A3341B4BCDAE00A65863 /* 2-双控制级联菜单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA5A3401B4BCDAE00A65863 /* Build configuration list for PBXNativeTarget "2-双控制级联菜单Tests" */;
+			buildPhases = (
+				FDA5A3311B4BCDAE00A65863 /* Sources */,
+				FDA5A3321B4BCDAE00A65863 /* Frameworks */,
+				FDA5A3331B4BCDAE00A65863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA5A3371B4BCDAE00A65863 /* PBXTargetDependency */,
+			);
+			name = "2-双控制级联菜单Tests";
+			productName = "2-双控制级联菜单Tests";
+			productReference = FDA5A3351B4BCDAE00A65863 /* 2-双控制级联菜单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA5A2E81B4BCD9E00A65863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					FDA5A2EF1B4BCD9E00A65863 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FDA5A3081B4BCD9E00A65863 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FDA5A2EF1B4BCD9E00A65863;
+					};
+					FDA5A31C1B4BCDAE00A65863 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FDA5A3341B4BCDAE00A65863 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FDA5A31C1B4BCDAE00A65863;
+					};
+				};
+			};
+			buildConfigurationList = FDA5A2EB1B4BCD9E00A65863 /* Build configuration list for PBXProject "J-级联菜单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA5A2E71B4BCD9E00A65863;
+			productRefGroup = FDA5A2F11B4BCD9E00A65863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA5A2EF1B4BCD9E00A65863 /* J-级联菜单 */,
+				FDA5A3081B4BCD9E00A65863 /* J-级联菜单Tests */,
+				FDA5A31C1B4BCDAE00A65863 /* 2-双控制级联菜单 */,
+				FDA5A3341B4BCDAE00A65863 /* 2-双控制级联菜单Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA5A2EE1B4BCD9E00A65863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A3461B4BCDE100A65863 /* categories.plist in Resources */,
+				FDA5A2FF1B4BCD9E00A65863 /* Main.storyboard in Resources */,
+				FDA5A3041B4BCD9E00A65863 /* LaunchScreen.xib in Resources */,
+				FDA5A3011B4BCD9E00A65863 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3071B4BCD9E00A65863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A31B1B4BCDAE00A65863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A3441B4BCDDB00A65863 /* categories.plist in Resources */,
+				FDA5A32B1B4BCDAE00A65863 /* Main.storyboard in Resources */,
+				FDA5A3301B4BCDAE00A65863 /* LaunchScreen.xib in Resources */,
+				FDA5A32D1B4BCDAE00A65863 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3331B4BCDAE00A65863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA5A2EC1B4BCD9E00A65863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A35C1B4BCEBE00A65863 /* SLCategory.m in Sources */,
+				FDA5A2F91B4BCD9E00A65863 /* AppDelegate.m in Sources */,
+				FDA5A2F61B4BCD9E00A65863 /* main.m in Sources */,
+				FDA5A3491B4BCE1B00A65863 /* SL1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3051B4BCD9E00A65863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A3101B4BCD9E00A65863 /* J_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3191B4BCDAE00A65863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A3591B4BCEBA00A65863 /* SLCategory.m in Sources */,
+				FDA5A3561B4BCEB400A65863 /* SLSubcategoryViewController.m in Sources */,
+				FDA5A34C1B4BCE2600A65863 /* SL2ViewController.m in Sources */,
+				FDA5A3551B4BCEB400A65863 /* SLCategoryViewController.m in Sources */,
+				FDA5A3251B4BCDAE00A65863 /* AppDelegate.m in Sources */,
+				FDA5A3221B4BCDAE00A65863 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5A3311B4BCDAE00A65863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA5A33C1B4BCDAE00A65863 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA5A30B1B4BCD9E00A65863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA5A2EF1B4BCD9E00A65863 /* J-级联菜单 */;
+			targetProxy = FDA5A30A1B4BCD9E00A65863 /* PBXContainerItemProxy */;
+		};
+		FDA5A3371B4BCDAE00A65863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA5A31C1B4BCDAE00A65863 /* 2-双控制级联菜单 */;
+			targetProxy = FDA5A3361B4BCDAE00A65863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA5A2FD1B4BCD9E00A65863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA5A2FE1B4BCD9E00A65863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA5A3021B4BCD9E00A65863 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA5A3031B4BCD9E00A65863 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FDA5A3291B4BCDAE00A65863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA5A32A1B4BCDAE00A65863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA5A32E1B4BCDAE00A65863 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA5A32F1B4BCDAE00A65863 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA5A3111B4BCD9E00A65863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA5A3121B4BCD9E00A65863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA5A3141B4BCD9E00A65863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "J-级联菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA5A3151B4BCD9E00A65863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "J-级联菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA5A3171B4BCD9E00A65863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "J-级联菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/J-级联菜单.app/J-级联菜单";
+			};
+			name = Debug;
+		};
+		FDA5A3181B4BCD9E00A65863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "J-级联菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/J-级联菜单.app/J-级联菜单";
+			};
+			name = Release;
+		};
+		FDA5A33E1B4BCDAE00A65863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2-双控制级联菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA5A33F1B4BCDAE00A65863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "2-双控制级联菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA5A3411B4BCDAE00A65863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2-双控制级联菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-双控制级联菜单.app/2-双控制级联菜单";
+			};
+			name = Debug;
+		};
+		FDA5A3421B4BCDAE00A65863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2-双控制级联菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2-双控制级联菜单.app/2-双控制级联菜单";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA5A2EB1B4BCD9E00A65863 /* Build configuration list for PBXProject "J-级联菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA5A3111B4BCD9E00A65863 /* Debug */,
+				FDA5A3121B4BCD9E00A65863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA5A3131B4BCD9E00A65863 /* Build configuration list for PBXNativeTarget "J-级联菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA5A3141B4BCD9E00A65863 /* Debug */,
+				FDA5A3151B4BCD9E00A65863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA5A3161B4BCD9E00A65863 /* Build configuration list for PBXNativeTarget "J-级联菜单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA5A3171B4BCD9E00A65863 /* Debug */,
+				FDA5A3181B4BCD9E00A65863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA5A33D1B4BCDAE00A65863 /* Build configuration list for PBXNativeTarget "2-双控制级联菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA5A33E1B4BCDAE00A65863 /* Debug */,
+				FDA5A33F1B4BCDAE00A65863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA5A3401B4BCDAE00A65863 /* Build configuration list for PBXNativeTarget "2-双控制级联菜单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA5A3411B4BCDAE00A65863 /* Debug */,
+				FDA5A3421B4BCDAE00A65863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA5A2E81B4BCD9E00A65863 /* Project object */;
+}

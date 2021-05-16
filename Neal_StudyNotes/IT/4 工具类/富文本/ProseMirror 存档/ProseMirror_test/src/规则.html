@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="utf8">
+<head>
+  <meta charset="utf8" />
+  <link rel='stylesheet' href="./editor.css">
+  <!-- <script src="https://prosemirror.net/examples/prosemirror.js"></script> -->
+  <script src="require-pm.js"></script>
+  <script src="../dist/main.js" defer></script>
+  <style>
+    #text-editor {
+      background-color: rgba(0, 0, 0, 0.05);
+      padding: 0;
+    }
+    .ProseMirror {
+      min-height: none !important;
+    }
+    .ProseMirror a {
+      text-decoration: underline;
+    }
+    note,
+    notegroup {
+      display: block;
+      border: 1px solid silver;
+      border-radius: 3px;
+      padding: 3px 6px;
+      margin: 5px 0;
+    }
+    notegroup {
+      border-color: #66f;
+    }
+    p.boring {
+      background: #eee;
+      color: #444;
+    }
+    shouting {
+      display: inline;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    star {
+      display: inline;
+      font-size: 190%;
+      line-height: 1;
+      vertical-align: -10%;
+      color: #a8f;
+      -webkit-text-stroke: 1px #75b;
+    }
+  </style>
+</head>
+
+<body>
+  <p>行内编辑器: <span id="text-editor"></span></p>
+  <div id="note-editor"></div>
+
+  <div id="star-editor" class="editor"></div>
+
+  <div style="display: none">
+    <div id="text-content">比如这句话。</div>
+    <div id="note-content">
+      <note>洗衣服</note>
+      <note>给西红柿浇水</note>
+      <notegroup>
+        <note>买面粉</note>
+        <note>拿卫生纸</note>
+      </notegroup>
+    </div>
+    <div id="star-content">
+      <p>
+        这是一个 <star>1</star>美好的<star>1</star> 段落，它可以有
+        <shouting>任何东西</shouting> 在里面。
+      </p>
+      <p class="boring">这一段很无聊，它不能有任何东西。</p>
+      <p>
+        按ctrl/cmd space插入星号，按ctrl/cmd-b切换叫喊，然后按ctrl/cmd-q添加或删除链接。
+      </p>
+    </div>
+  </div>
+</body>
+</html>

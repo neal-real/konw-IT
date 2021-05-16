@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dmo-f7-dLX">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="h2z-qU-IL5">
+            <objects>
+                <viewController id="Dmo-f7-dLX" customClass="LZMainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="phz-hb-E8R"/>
+                        <viewControllerLayoutGuide type="bottom" id="dRH-is-WNB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="q4L-kZ-Tph">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="ivC-Oc-BFt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ivC-Oc-BFt" firstAttribute="leading" secondItem="q4L-kZ-Tph" secondAttribute="leading" id="9ex-DI-pph"/>
+                            <constraint firstItem="ivC-Oc-BFt" firstAttribute="top" secondItem="q4L-kZ-Tph" secondAttribute="top" id="C8i-Y5-aIP"/>
+                            <constraint firstAttribute="trailing" secondItem="ivC-Oc-BFt" secondAttribute="trailing" id="KtK-nE-WNA"/>
+                            <constraint firstItem="dRH-is-WNB" firstAttribute="top" secondItem="ivC-Oc-BFt" secondAttribute="bottom" id="O2h-f2-4AP"/>
+                            <constraint firstItem="ivC-Oc-BFt" firstAttribute="top" secondItem="phz-hb-E8R" secondAttribute="bottom" id="Q3R-wM-1Lo"/>
+                            <constraint firstItem="ivC-Oc-BFt" firstAttribute="leading" secondItem="q4L-kZ-Tph" secondAttribute="leadingMargin" id="mor-o7-M4E"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Q3R-wM-1Lo"/>
+                                <exclude reference="mor-o7-M4E"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yZo-62-yIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="360" height="640"/>
+    </resources>
+</document>
