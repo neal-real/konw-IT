@@ -43,27 +43,28 @@ mv mongodb-linux-x86_64-rhel70-3.6.5.tgz  mongodb
 mkdir data logs
 ```
 
-### 6. 到bin目录下创建配置文件mongodb.conf文件
+### 6. 到bin目录下创建配置文件`mongodb.conf`文件
 
 - mongodb3.0.6 版本之后需要配置mongodb.conf文件中的 `bing_ip=0.0.0.0` 之后才能远程访问，
 - 详细配置方法如下
   -  ERROR: child process failed, exited with error number 
   - 错误:子进程失败，退出与错误号
 
-```shell
 `@配置如下`
-	#1 配置文件内路径错误(可能是配置信息错误，找不到配置文件对应的目录报错：不要使用-f 来启动数据库s)
-	dbpath = /opt/mongodb3.6/data #数据文件存放目录
-	logpath = /opt/mongodb3.6/logs/mongodb.log #日志文件存放目录
-	port = 27017  #端口
-  fork = true  #以守护程序的方式启用，即在后台运行
-  # nohttpinterface = true  这个配置需要去掉，不然会出现一个如下错误
-  # Error parsing INI config file: unrecognised option 'nohttpinterface'
-  auth=true #开启权限认证，2.6版本前向后兼容可以用
-  #security:         
-  #2.6版本后开启权限认证，空格！: enabled空格！
-  #authorization: enabled
-  bind_ip=0.0.0.0  #任何ip都可以访问
+
+```shell
+#1 配置文件内路径错误(可能是配置信息错误，找不到配置文件对应的目录报错：不要使用-f 来启动数据库s)
+dbpath = /opt/mongodb/data #数据文件存放目录
+logpath = /opt/mongodb/logs/mongodb.log #日志文件存放目录
+port = 27017  #端口
+fork = true  #以守护程序的方式启用，即在后台运行
+# nohttpinterface = true  这个配置需要去掉，不然会出现一个如下错误
+# Error parsing INI config file: unrecognised option 'nohttpinterface'
+auth=true #开启权限认证，2.6版本前向后兼容可以用
+#security:         
+#2.6版本后开启权限认证，空格！: enabled空格！
+#authorization: enabled
+bind_ip=0.0.0.0  #任何ip都可以访问
 ```
 
 ### 7. 启动 
@@ -140,3 +141,44 @@ db.auth("myAdmin","sl19870719")
 https://www.runoob.com/mongodb/mongodb-osx-install.html
 
 
+
+
+
+## 在 mac 下安装
+
+1. 下载: https://www.mongodb.com/try/download/community
+
+2. 解压到想要的目录中
+
+3. 添加配置文件 `mongodb.conf` 在 bin 目录下
+
+   ```shell
+   #1 配置文件内路径错误(可能是配置信息错误，找不到配置文件对应的目录报错：不要使用-f 来启动数据库s)
+   dbpath = /Volumes/neal/system/app/mongodb/data #数据文件存放目录
+   logpath = /Volumes/neal/system/app/mongodb/logs/mongodb.log #日志文件存放目录
+   port = 27017  #端口
+   fork = true  #以守护程序的方式启用，即在后台运行
+   # nohttpinterface = true  这个配置需要去掉，不然会出现一个如下错误
+   # Error parsing INI config file: unrecognised option 'nohttpinterface'
+   auth=true #开启权限认证，2.6版本前向后兼容可以用
+   #security:         
+   #2.6版本后开启权限认证，空格！: enabled空格！
+   #authorization: enabled
+   bind_ip=0.0.0.0  #任何ip都可以访问
+   ```
+
+4. 配置环境变量
+
+   ```shell
+   export PATH=/Volumes/neal/system/app/mongodb/bin:$PATH
+   ```
+
+   
+
+5. 在 `mongodb` 目录下创建 `data` 和 `log` 目录
+
+
+
+## 登录 mongo 操作页面
+
+mongo
