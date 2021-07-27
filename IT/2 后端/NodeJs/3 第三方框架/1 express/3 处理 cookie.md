@@ -39,3 +39,8 @@ app.get('/getCookie', (req, res, next)=>{
 });
 ```
 
+## 错误记录
+
+服务器 设置 cookie 可以通过设置实现跨端口 设置 cookie, 无法实现跨根域实现设置 cookie . 根域就是 ip 地址不同. 
+
+1. 127.0.0.1 和 localhost 等于两个不同的 ip 地址

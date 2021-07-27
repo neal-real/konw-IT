@@ -25,6 +25,8 @@ tar -xf node-v12.16.1-linux-x64.tar
 //ln指令用于创建关联（类似与Windows的快捷方式）必须给全路径，否则可能关联错误
 ln -s /opt/node-v14.4.0-linux-x64/bin/node /usr/bin/node
 ln -s /opt/node-v14.4.0-linux-x64/bin/npm /usr/bin/npm
+// 改名
+mv A B
 # 到 ~/node安装目录下的/bin/目录的node和npm目录
 5.测试
 node -v
@@ -51,8 +53,8 @@ source ./.profile
 //修改/etc/profile文件
 sudo vi /etc/profile 
 //在末尾添加以下内容
-export PATH="$PATH:/文件绝对路径/bin"
-// 保存后更新配置,或重启服务器
+export PATH=/绝对路径/.npm-global/bin:$PATH
+// 保存后更新配置,或重启服务器  
 source /etc/profile
 #~/ 是相对路径  ./ 是当前路径
 ~~~

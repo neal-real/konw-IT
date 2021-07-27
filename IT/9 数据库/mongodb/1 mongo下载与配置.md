@@ -54,8 +54,8 @@ mkdir data logs
 
 ```shell
 #1 配置文件内路径错误(可能是配置信息错误，找不到配置文件对应的目录报错：不要使用-f 来启动数据库s)
-dbpath = /opt/mongodb/data #数据文件存放目录
-logpath = /opt/mongodb/logs/mongodb.log #日志文件存放目录
+dbpath = /绝对路径/mongodb/data #数据文件存放目录
+logpath = /绝对路径/mongodb/logs/mongodb.log #日志文件存放目录
 port = 27017  #端口
 fork = true  #以守护程序的方式启用，即在后台运行
 # nohttpinterface = true  这个配置需要去掉，不然会出现一个如下错误
@@ -74,6 +74,8 @@ bind_ip=0.0.0.0  #任何ip都可以访问
 ```shell
 ./mongod -f ./mongodb.conf
 #windows 启动服务的命令是： net start mongo
+连接MongoDB服务器
+mongo
 ```
 
 ### 8、查看是否启动成功
@@ -87,7 +89,7 @@ ps -ef|grep mongodb
 ```shell
 vim /etc/profile
 # 文件内在末尾添加以下内容
-export PATH="$PATH:/文件绝对路径/bin"
+export PATH="$PATH:/文件绝对路径/bin"  
 #保存后更新配置,或重启服务器
 source /etc/profile
 ```
