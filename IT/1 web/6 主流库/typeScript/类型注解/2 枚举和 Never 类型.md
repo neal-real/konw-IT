@@ -19,3 +19,24 @@ console.log(Gender.Male); // 0
 console.log(Gender[0]); // Male
 ```
 
+
+
+## Never类型
+
+- 永远执行不完的函数
+- 一般用于抛出异常或根本不可能有返回值的函数
+
+```typescript
+function demo():never {
+  throw new Error('报错了');
+  console.log('打印不了,永远执行不完,这个作用域的代码');
+}
+demo();
+
+function demo2():never {
+  while (true){}
+}
+demo2();
+```
+
+## 
