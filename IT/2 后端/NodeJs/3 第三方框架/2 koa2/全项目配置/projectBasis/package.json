@@ -1,0 +1,26 @@
+{
+  "name": "projectBasis",
+  "version": "1.0.0",
+  "description": "基于 koa2的项目",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.13.6",
+    "parameter": "^3.6.0",
+    "qs": "^6.10.1",
+    "redis": "^3.1.2",
+    "require-directory": "^2.1.1",
+    "string-random": "^0.1.3"
+  }
+}

@@ -82,6 +82,8 @@ mongo
 
 ```shell
 ps -ef|grep mongodb
+# 查看 27017进程是否有运行
+lsof -i :27017
 ```
 
 ### 9. 添加配置文件
