@@ -168,10 +168,6 @@ export default class UserController extends Controller {
 
 
 
-
-
-
-
 ## 常用的Mongoose 方法
 
 ### 一，增加数据

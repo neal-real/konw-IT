@@ -41,7 +41,7 @@ exports.mongoose = {
 config.mongoose = {
   client: {
     url: "mongodb://knowmap:knowmap@122.51.64.***:27017/knowmap", // 示例
-    options: {},  // 其他配置项
+    options: { useNewUrlParser: true, useUnifiedTopology: true },  // 其他配置项
     plugins: [createdPlugin, [updatedPlugin, pluginOptions]], // 有插件配置插件, 没有不用配置. 此时我没有添加此行
   }
 }
