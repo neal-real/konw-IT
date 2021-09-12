@@ -17,7 +17,7 @@ nvm list
 
 ## 初始化-发布
 
-
+- https://registry.npm.taobao.org/ 用来在事后调整过来
 
 ~~~sh
 # 创建文件夹
@@ -31,7 +31,7 @@ npm init
 module.exports = consoleFunc
 # 查看发布地址是否正确
 npm config list  #查看现在下载源是否是"https://registry.npmjs.org/"
-# 不是的话，修改发布地址为官方
+# 不是的话，修改发布地址为官方 
 npm set registry https://registry.npmjs.org/
 # 添加 npm 账号信息： 没有的话去 npm 官方注册
 npm adduser
