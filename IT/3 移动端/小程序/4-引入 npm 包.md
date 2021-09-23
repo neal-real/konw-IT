@@ -9,3 +9,8 @@
    1. 初始化项目 `npm init`
    2.  `npm install 包名`
    3. `npm install` 安装依赖...
+
+
+
+正确顺序可能是 4123
+
