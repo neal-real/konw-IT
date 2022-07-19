@@ -109,8 +109,8 @@ source /etc/profile
 
    1. ```shell
       db.createUser({
-          user: "myAdmin",
-          pwd: "sl19870719",
+          user: "tdwOlp0VGpOmqkoRBd",
+          pwd: "wel5LJdFjsmaKWcEqB6",
           roles: [ 
             	{ role: "userAdminAnyDatabase", db: "admin" },
             	{ role: "readWriteAnyDatabase", db: "admin" },

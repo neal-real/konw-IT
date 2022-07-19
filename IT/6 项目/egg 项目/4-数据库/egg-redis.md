@@ -51,10 +51,14 @@
 
   #### 4.启动数据库
 
+  > 可以使用宝塔面板处理
+  >
+  > 也可以使用下列方式处理
+
   1. 下载 : mac https://redis.io/download
-
+  
      或者
-
+  
      ```shell
      wget http://download.redis.io/releases/redis-6.2.4.tar.gz
      tar xzf redis-6.2.4.tar.gz
@@ -63,14 +67,14 @@
      ```
 
   2. 使用命令编译安装
-
+  
   3. -  **make** 命令后，redis 的 **src** 目录下会出现编译后的 redis 服务程序 redis-server，还有用于测试的客户端程序 redis-cli：
-
+  
      ```shell
      #在 redis 目录下执行
      make
      ```
-
+  
   4. 切换目录
 
      ```shell
@@ -84,16 +88,16 @@
   6. - 启动成功显示
 
        `3809:M 17 Jun 2021 18:28:35.352 # Server initialized`
-
+  
        `3809:M 17 Jun 2021 18:28:35.352 * Ready to accept connections`
-
+  
      ```shell
      # 使用默认配置启动服务器
      ./redis-server
      # 或者使用配置文件启动服务器
      ./redis-server ../redis.conf
      ```
-
+  
   7. 连接服务器(到这一步就可以了)
 
      ```shell
@@ -105,9 +109,9 @@
   9. 调用一次图像验证码, 保存生成的验证码
 
   10. 在初次连接 redis 服务器后,可以验证是否可以正确获得验证码,此步骤可以省略
-
+  
       - code\":\"uLbS" 
-
+  
       ```shell
       # 获取验证吗
       keys *
@@ -122,9 +126,9 @@
       
 
   ### 扩展功能
-
+  
   `/app/extend/helper.ts`
-
+  
   ```js
   import ImageCode from '../util/imageCode';
   
@@ -140,14 +144,38 @@
 
   
 
+  
+  
+  ## 直接调用 redis的方法
+
+  ```tsx
+  module.exports = app => {
+    return class wecatPay extends app.Service {
+  		// 获取
+      let redis_res = await app.redis.get('wechat_redis').get(new_res.openid);
+  	  // 写入 redis 数据库 参数说明:  数据库名: key : value
+    	await app.redis.get('wechat_redis').set(
+      	weChatData.openid,
+  	    JSON.stringify(severData)
+    	);
+  	} 
+  }
+  ```
+  
+  
+  
+  
+  
+  
+  
   ## 实现完整功能的封装
-
+  
   ### 1. 创建图片验证码功能
-
+  
   1. 创建文件和相关目录, 最终创建文件`app/util/imageCode.ts`
   2. 引入第三方库 `import svgCaptcha = require('svg-captcha');`
   3. 写入代码,并导出
-
+  
   ```js
   // imageCode.ts
   /*
@@ -207,15 +235,15 @@
     }
   }
   ```
-
   
-
+  
+  
   ### 2. 将方法添加至 helper.ts
-
+  
   - 知识属于 egg 框架中扩展模块的部分
-
+  
   `app/extend/helper.ts`
-
+  
   ```js
   import ImageCode from '../util/imageCode';
   
@@ -228,13 +256,13 @@
     }
   };
   ```
-
   
-
   
-
+  
+  
+  
   ### 示例: 获取验证码
-
+  
   ```js
   // app/router.ts
   import { Application } from 'egg';
@@ -256,9 +284,9 @@
     }
   }
   ```
-
+  
   ### 示例: 验证验证码
-
+  
   ```js
   // app/controller/user.ts
   // app/controller/user.ts
@@ -274,9 +302,9 @@
     }
   }
   ```
-
   
-
+  
+  
   ## 注意点
-
+  
   - 请求验证码和验证验证码的客户端**必须是同一个**,因为 egg 会自动返回 一个名为 `EGG_SESS`的 cookie. 客户端不一致是无法校验同一个验证码

@@ -30,7 +30,7 @@
 |                             |                                                        |
 | npm                         | 查看帮助引导                                           |
 |                             |                                                        |
-|                             |                                                        |
+| npm config list             | 查看下载渠道                                           |
 |                             |                                                        |
 |                             |                                                        |
 |                             |                                                        |
@@ -122,8 +122,10 @@ npm install jquery --registry=https://registry.npm.taobao.org
 # 配置到淘宝服务器
 npm config set registry https://registry.npm.taobao.org
 
-# 查看 npm 配置信息
-s
+# 查看 npm 下载源
+npm config get registry
+
+npm config list
 ```
 
 只要经过了上面命令的配置，则你以后所有的 `npm install` 都会默认通过淘宝的服务器来下载。

@@ -1,4 +1,4 @@
-## mongoose
+## egg-mongoose
 
 ### 下载
 

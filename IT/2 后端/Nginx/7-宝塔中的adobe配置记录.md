@@ -1,15 +1,10 @@
-## 宝塔面板中的配置记录
-
-这是在 php 的配置页面完成的配置
-
-```shell
 server
 {
     listen 80;
-	listen 443 ssl http2;
-    server_name www.realisbest.net *.realisbest.net;
+    listen 443 ssl http2;
+    server_name www.newinfinite.top *.newinfinite.top;
     index index.php index.html index.htm default.php default.htm default.html;
-    root /www/app/realisbest.net;
+    root /www/app/adobe;
     
     #SSL-START SSL相关配置，请勿删除或修改下一行带注释的404规则
     #error_page 404/404.html;
@@ -18,8 +13,8 @@ server
         rewrite ^(/.*)$ https://$host$1 permanent;
     }
     #HTTP_TO_HTTPS_END
-    ssl_certificate    /www/server/panel/vhost/cert/realisbest.net/fullchain.pem;
-    ssl_certificate_key    /www/server/panel/vhost/cert/realisbest.net/privkey.pem;
+    ssl_certificate    /www/server/panel/vhost/cert/www.newinfinite.top/fullchain.pem;
+    ssl_certificate_key    /www/server/panel/vhost/cert/www.newinfinite.top/privkey.pem;
     ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
     ssl_ciphers EECDH+CHACHA20:EECDH+CHACHA20-draft:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
     ssl_prefer_server_ciphers on;
@@ -40,7 +35,7 @@ server
     #PHP-INFO-END
     
     #REWRITE-START URL重写规则引用,修改后将导致面板设置的伪静态规则失效
-    include /www/server/panel/vhost/rewrite/realisbest.net.conf;
+    include /www/server/panel/vhost/rewrite/www.newinfinite.top.conf;
     #REWRITE-END
     
     #禁止访问的文件或目录
@@ -48,17 +43,15 @@ server
     {
         return 404;
     }
-    #### 监听服务器指定端口,将服务转发至此端口
-   location /WBPP46 {
-	    try_files $uri $uri/  /index.html;
+    location /WBPP46 {
+        try_files $uri $uri/  /index.html;
     }
-    #### 监听服务器指定端口,将服务转发至此端口
-    location /api/jiudaka {
+    location /api {
       proxy_set_header Upgrade $http_upgrade;
       proxy_set_header Connection "upgrade";
       proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
       proxy_set_header Host $host;
-	    proxy_pass http://127.0.0.1:7001;
+        proxy_pass http://127.0.0.1:7001;
     }
     #一键申请SSL证书验证目录相关设置
     location ~ \.well-known{
@@ -78,10 +71,6 @@ server
         error_log /dev/null;
         access_log /dev/null; 
     }
-    access_log  /www/wwwlogs/realisbest.net.log;
-    error_log  /www/wwwlogs/realisbest.net.error.log;
+    access_log  /www/wwwlogs/www.newinfinite.top.log;
+    error_log  /www/wwwlogs/www.newinfinite.top.error.log;
 }
-```
-
-
-

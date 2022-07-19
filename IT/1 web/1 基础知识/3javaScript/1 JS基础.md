@@ -1,4 +1,4 @@
-## 基础概念
+## 4基础概念
 
 1. javaScript 的使用环境
 2. javaScript 的应用场景
@@ -31,15 +31,13 @@
 
 ## 组成
 
-![1496912475691](file:///Volumes/备份盘/project/gitHub/Neal_StudyNotes/IT/1.前端/3javaScript/ECMAScipt/img/1496912475691.png?lastModify=1616383359)
-
-```
- #### 1 ECMAScript - JavaScript的核心
- //ECMAScript是一套语法标准，描述了基本语法和数据类型，是JavaScript的核心。
- #### 2 BOM - 浏览器对象模型
- //一套浏览器功能的API,BOM操作浏览器窗口，比如：弹出框、控制浏览器跳转、获取分辨率等
- #### 3 DOM - 文档对象模型
- //页面元素的API,DOM可以把HTML看做是文档树，通过DOM提供的API可以对树上的节点进行操作
+```js
+1 ECMAScript - JavaScript的核心
+//ECMAScript是一套语法标准，描述了基本语法和数据类型，是JavaScript的核心。
+2 BOM - 浏览器对象模型
+//一套浏览器功能的API,BOM操作浏览器窗口，比如：弹出框、控制浏览器跳转、获取分辨率等
+3 DOM - 文档对象模型
+//页面元素的API,DOM可以把HTML看做是文档树，通过DOM提供的API可以对树上的节点进行操作
 ```
 
 
@@ -110,5 +108,4 @@
 > 在 JS 中也是这样有一个类型 JS 循环事件一直在监听所有的事件发生,通过不同的事件执行不同的代码
 
 扩展阅读: https://segmentfault.com/a/1190000015042127
-
 
