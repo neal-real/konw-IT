@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "bbd3c0018d2f0658",
+    "type": "split",
+    "children": [
+      {
+        "id": "327ecd84f99b0bf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1fdf547bfc97b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5-虚拟主机配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31e41cd62fc2ddeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "15f8ffb4fd3542bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa610b8ed023b181",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "26430f2ae8307bfa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a754ec8f9a07ef4b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f90f4ec380eeec89",
+    "type": "split",
+    "children": [
+      {
+        "id": "aba54382eb36504e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab1c0c0ea9e8b4b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5-虚拟主机配置.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c6085387eae73545",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "5-虚拟主机配置.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f4ea71d3369fbffd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64cd5a3c3b3e273d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "5-虚拟主机配置.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "aa610b8ed023b181",
+  "lastOpenFiles": [
+    "4-httpp 配置.md",
+    "2-基础操作.md",
+    "img/image-20210820170822822.png"
+  ]
+}
