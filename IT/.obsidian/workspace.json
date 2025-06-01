@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "b3b93b24fb13b015",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e9b3615648e51d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4c6efbd3ee9ff08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 web/6 主流库/vue3/基础/创建一个应用.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "842281c1ebdd13a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9218dd3903607bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "63889650b922325a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52747de5446181bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 web/6 主流库/vue2/vue-传值.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dc132f940e86503",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e76c307d63b587a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dd783d49ef5b0f9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4a515fd641afcaa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43de0e42dfb3fe59",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3cd6aa959350ef15",
+    "type": "split",
+    "children": [
+      {
+        "id": "79db18faa7844dfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe9ca3fe9bc06d65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90dcd37f8a54bf23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19a311c728e3c8d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "666db6de856e2867",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9218dd3903607bd6",
+  "lastOpenFiles": [
+    "1 web/6 主流库/vue3/Pinia/两种使用方式.md",
+    "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+    "1 web/6 主流库/vue3/基础/创建一个应用.md",
+    "1 web/6 主流库/vue2/vue-传值.md"
+  ]
+}
