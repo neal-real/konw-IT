@@ -1,24 +1,40 @@
 {
   "main": {
-    "id": "b3b93b24fb13b015",
+    "id": "7aec8c7f214a35e3",
     "type": "split",
     "children": [
       {
-        "id": "63889650b922325a",
+        "id": "fa96f833090e71ce",
         "type": "tabs",
         "children": [
           {
-            "id": "52747de5446181bd",
+            "id": "c5dae35e63b8c95f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 web/1 基础知识/7 Canvas/7 渐变色.md",
+                "file": "欢迎.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 渐变色"
+              "title": "欢迎"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a65d3e739c937fda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08a55fd4d5166788",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -27,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5dc132f940e86503",
+    "id": "01a121a285553fec",
     "type": "split",
     "children": [
       {
-        "id": "8e76c307d63b587a",
+        "id": "9aeb0da2197a14a3",
         "type": "tabs",
         "children": [
           {
-            "id": "5dd783d49ef5b0f9",
+            "id": "4ec85de73ac11f5f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +64,7 @@
             }
           },
           {
-            "id": "a4a515fd641afcaa",
+            "id": "ac4279cd038e3155",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,17 +81,7 @@
             }
           },
           {
-            "id": "43de0e42dfb3fe59",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "starred"
-            }
-          },
-          {
-            "id": "4aa6f18be330f9df",
+            "id": "b2687682509a5d0a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,20 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "3cd6aa959350ef15",
+    "id": "3bb0a185cfecdb40",
     "type": "split",
     "children": [
       {
-        "id": "79db18faa7844dfc",
+        "id": "9b4951991e09ddad",
         "type": "tabs",
         "children": [
           {
-            "id": "fe9ca3fe9bc06d65",
+            "id": "839dd4d0d814c53c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 web/1 基础知识/7 Canvas/7 渐变色.md",
+                "file": "欢迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "7 渐变色 的反向链接列表"
+              "title": "欢迎 的反向链接列表"
             }
           },
           {
-            "id": "90dcd37f8a54bf23",
+            "id": "c1892e59d6c52c2b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 web/1 基础知识/7 Canvas/7 渐变色.md",
+                "file": "欢迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "7 渐变色 的出链列表"
+              "title": "欢迎 的出链列表"
             }
           },
           {
-            "id": "19a311c728e3c8d4",
+            "id": "50a0a079e7747f51",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,22 +153,7 @@
             }
           },
           {
-            "id": "666db6de856e2867",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "1 web/1 基础知识/7 Canvas/7 渐变色.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "7 渐变色 的大纲"
-            }
-          },
-          {
-            "id": "58681ff5d7d4935d",
+            "id": "9b2e227166d81ee9",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -173,6 +164,21 @@
               },
               "icon": "lucide-archive",
               "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "d325d8182b3c87dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
             }
           }
         ]
@@ -193,44 +199,27 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "5dd783d49ef5b0f9",
+  "active": "c5dae35e63b8c95f",
   "lastOpenFiles": [
-    "10 游戏/游戏关卡.md",
-    "10 游戏/游戏策划/游戏策划的基本概念.md",
-    "10 游戏/游戏策划/游戏核心概念.md",
-    "10 游戏/游戏策划",
-    "10 游戏/欢迎.md",
-    "10 游戏",
-    "5 UE/其他/虚幻知识点有哪些.md",
-    "5 UE/其他/未命名.md",
-    "5 UE/其他/待学习的内容.md",
-    "5 UE/其他",
-    "5 UE/组件代码/概念/1-组件.md",
-    "5 UE/组件代码/代码/2-触发器组件.md",
-    "5 UE/组件代码/代码/1-移动组件.md",
-    "5 UE/组件代码/概念",
-    "5 UE/组件代码/代码",
-    "5 UE/组件代码",
-    "5 UE/学习文档/概念说明.md",
-    "5 UE/学习文档/函数文档.md",
-    "5 UE/学习文档/光照.md",
-    "5 UE/学习文档/UE开发中的宏说明.md",
-    "5 UE/学习文档",
-    "5 UE/学习笔记/再UE和VS2022中使用中文得方法.md",
-    "5 UE/学习笔记/2-C++ 基础操作.md",
-    "5 UE/学习笔记/1-基础操作.md",
-    "5 UE/学习笔记",
-    "5 UE/欢迎.md",
-    "5 UE",
-    "1 web/1 基础知识/5 本地存储和同源协议/4 同源策略.md",
-    "1 web/1 基础知识/5 本地存储和同源协议/2 cookie 和 hash.md",
-    "1 web/1 基础知识/5 本地存储和同源协议/1 基础概念.md",
-    "2 后端/PHP/进阶/1 常用功能.md",
-    "2 后端/PHP/基础/3 函数.md",
-    "2 后端/PHP/基础/2 运算符和循环判断.md",
-    "2 后端/PHP/基础/1.基础.md",
-    "2 后端/Python基础/python基础.md",
-    "6 项目/1-新项目模板/项目启动流程图.png",
-    "9 数据库/mysql/mysql.jpg"
+    "其他/虚幻知识点有哪些.md",
+    "其他/未命名.md",
+    "其他/待学习的内容.md",
+    "其他",
+    "组件代码/概念/1-组件.md",
+    "组件代码/代码/2-触发器组件.md",
+    "组件代码/代码/1-移动组件.md",
+    "组件代码/概念",
+    "组件代码/代码",
+    "组件代码",
+    "学习文档/概念说明.md",
+    "学习文档/函数文档.md",
+    "学习文档/UE开发中的宏说明.md",
+    "学习文档/光照.md",
+    "学习文档",
+    "学习笔记/再UE和VS2022中使用中文得方法.md",
+    "学习笔记/2-C++ 基础操作.md",
+    "学习笔记/1-基础操作.md",
+    "学习笔记",
+    "欢迎.md"
   ]
 }
