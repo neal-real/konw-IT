@@ -15,9 +15,11 @@
               "state": {
                 "file": "1 web/6 主流库/vue3/基础/创建一个应用.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "创建一个应用"
             }
           },
           {
@@ -29,7 +31,9 @@
                 "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "安装,介绍和基本使用"
             }
           },
           {
@@ -41,7 +45,9 @@
                 "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "安装,介绍和基本使用"
             }
           }
         ],
@@ -60,7 +66,9 @@
                 "file": "1 web/6 主流库/vue2/vue-传值.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "vue-传值"
             }
           }
         ]
@@ -82,8 +90,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -98,7 +109,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -106,7 +119,19 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "4aa6f18be330f9df",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -137,7 +162,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "安装,介绍和基本使用 的反向链接列表"
             }
           },
           {
@@ -149,7 +176,9 @@
                 "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "安装,介绍和基本使用 的出链列表"
             }
           },
           {
@@ -159,8 +188,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -169,8 +202,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md"
-              }
+                "file": "1 web/6 主流库/vue3/Pinia/安装,介绍和基本使用.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "安装,介绍和基本使用 的大纲"
+            }
+          },
+          {
+            "id": "58681ff5d7d4935d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ]
@@ -179,6 +231,17 @@
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
   },
   "active": "9218dd3903607bd6",
   "lastOpenFiles": [
